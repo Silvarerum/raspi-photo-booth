@@ -1,0 +1,28 @@
+{
+  "name": "raspi-photo-booth",
+  "version": "0.1.0",
+  "description": "Dependencies for raspi-photo-booth.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Silvarerum/raspi-photo-booth.git"
+  },
+  "keywords": [
+    "raspberry",
+    "pi",
+    "photo",
+    "booth"
+  ],
+  "author": "Krzysztof Wójt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Silvarerum/raspi-photo-booth/issues"
+  },
+  "homepage": "https://github.com/Silvarerum/raspi-photo-booth#readme",
+  "devDependencies": {
+    "electron": "^4.0.2"
+  }
+}
