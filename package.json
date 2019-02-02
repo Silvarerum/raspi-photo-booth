@@ -4,7 +4,8 @@
   "description": "Dependencies for raspi-photo-booth.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,6 @@
   "homepage": "https://github.com/Silvarerum/raspi-photo-booth#readme",
   "devDependencies": {
     "electron": "^4.0.2"
-  }
+  },
+  "dependencies": {}
 }
