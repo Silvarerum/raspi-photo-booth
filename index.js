@@ -26,8 +26,19 @@ function main() {
    */
   WINDOW_WIDTH = 800;
 
+  /**
+   * Constant representing default window background color
+   * @constant {string}
+   * @default
+   */
+  WINDOW_BACKGROUND_COLOR = '#242255';
+
   // Setup main window
-  win = new BrowserWindow({ WINDOW_WIDTH, height: WINDOW_HEIGHT });
+  win = new BrowserWindow({ 
+    width: WINDOW_WIDTH, 
+    height: WINDOW_HEIGHT,
+    backgroundColor: WINDOW_BACKGROUND_COLOR
+  });
   win.on('closed', () => {
     win = null;
   });
